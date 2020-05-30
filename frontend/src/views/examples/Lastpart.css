@@ -1,0 +1,48 @@
+.main{
+    height: 17rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    bottom: 0px;
+    position: static;
+    margin-top: 3rem;
+    z-index: 50;
+}
+
+h3 .ftranc:link {
+        color: white;
+        text-decoration: none;
+    }
+h3 .ftranc:visited {
+    color: whitesmoke;
+  }
+h3 .ftranc:hover {
+    color: cyan;
+  } 
+.sub-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: black ;
+    z-index: 50;
+}
+.links{
+    width: 50%;
+    margin-left: 10%;
+    float: left;
+    text-align: left;
+    padding-top: 4rem;
+} 
+.social {
+    width: 50%;
+    padding-top: 4rem;
+    padding-left: 50%;
+    margin-right: 2rem;
+} 
+
+.FontAwesomeIcon  
+{
+    color: cyan;
+}
+

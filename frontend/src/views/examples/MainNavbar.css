@@ -1,0 +1,130 @@
+:root{
+    --color1: #210bee;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.topnav{
+position: fixed;
+
+align-content: center;
+background-color: var(--color1);
+width: 100%;
+text-align: center;
+display: flex;
+flex-direction: row;
+z-index: 1;
+transition: all 500ms ease-out;
+}
+
+.sub-nav{
+    padding-top: 12px;
+    /* background-color:black; */
+    height: 50px;
+    width:95%;
+    text-align: center; 
+    display: block;
+    /* color: white;  */
+    font-weight: bolder;
+
+}
+
+.box-1{
+    float: left;
+    text-align: left;
+    padding-left:15px;
+    padding-top:5px;
+    height: 50px;
+    width:15%;
+    /* background:black; */
+
+    font-weight: bolder;
+    /* color:white; */
+}
+
+.box-2{
+    text-align: left;
+    padding-left:15px;
+    padding-top:5px;
+    float: left;
+    height: 50px;
+    width:10%;
+    /* background:black; */
+    font-weight: bolder;
+    /* color:white; */
+}
+
+.box-3{
+    text-align: left;
+    padding-left:15px;
+    padding-top:5px;
+    float: left;
+    height: 50px;
+    width:15%;
+    /* background:black; */
+    font-weight: bolder;
+    /* color:white; */
+}
+
+.box-4{
+    text-align: left;
+    padding-left:15px;
+    padding-top:5px;
+    float: right;
+    height: 50px;
+    width:7%;
+    /* background:black; */
+    font-weight: bolder;
+    /* color:white; */
+}
+
+.box-5{
+    text-align: left;
+    padding-left:15px;
+    padding-top:5px;
+    float: right;
+    height: 50px;
+    width:6%;
+    /* background:black; */
+    font-weight: bolder;
+    /* color:white; */
+}
+
+.box-6{
+    text-align: left;
+    padding-left:15px;
+    padding-top:5px;
+    float: right;
+    height: 50px;
+    width:10%;
+    /* background:black; */
+    font-weight: bolder;
+    /* color:white; */
+}
+h3{
+
+    font-weight: bold;
+    color:white;
+}
+
+.box-7{
+    text-align: right;
+    padding-left:15px;
+    padding-top:5px;
+    float: right;
+    height: 50px;
+    width:10%;
+    /* background:black; */
+    font-weight: bolder;
+    /* color:white; */
+}
+
+.hamburger{
+    width: 5%;
+    justify-content: space-around;
+    margin:0.75%;
+
+    
+}

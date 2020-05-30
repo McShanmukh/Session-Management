@@ -1,0 +1,51 @@
+.static-left{
+    width: 24%;
+    /* background-color: ; */
+    position: fixed;
+    padding-left: 1%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    height: 190px;
+    /* overflow: auto; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.static-left a:link{
+    color: black;
+    text-decoration: none;
+}
+.static-left a:visited{
+    color: black;
+    text-decoration: none;
+}
+.static-left a:hover{
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+}
+.eco-al-mn-mx{
+    padding-top:10%;
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.eco-mx{
+    width: 72%;
+    padding-left: 27%;
+
+}
+.seperator{
+    width:1%;
+}
+.line{
+    color: black;
+    width: 3px;
+}
+.trade-search{
+    position: relative;
+    margin-top: 120px;
+}

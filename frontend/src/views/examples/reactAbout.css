@@ -1,0 +1,1453 @@
+/* .mediaViewInfo {
+	--web-view-name: Web 1366 – 5;
+	--web-view-id: Web_1366___5;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+} */
+/* :root {
+	--web-view-ids: Web_1366___5;
+} */
+
+
+
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+} */
+
+
+
+#Web_1366___5 {
+	position: relative;
+	width: 1440px;
+	height: 2977px;
+	background-color: whitesmoke;
+	overflow: hidden;
+	--web-view-name: Web 1366 – 5;
+	--web-view-id: Web_1366___5;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+
+.out{
+	margin-top: -50px;
+}
+
+#Group_353 {
+	position: absolute;
+	width: 1440px;
+	height: 7002.393px;
+	left: -596.389px;
+	top: -896.393px;
+	overflow: visible;
+}
+.Path_374 {
+	overflow: visible;
+	position: absolute;
+	width: 2036.163px;
+	height: 1703.09px;
+	transform: translate(8816.389px, 24490.393px) matrix(1,0,0,1,-8360.8088,-24255.9095) rotate(-15deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Path_376 {
+	overflow: visible;
+	position: absolute;
+	width: 1552.926px;
+	height: 1262.859px;
+	transform: translate(8816.389px, 24490.393px) matrix(1,0,0,1,-8299.0081,-23697.015) rotate(-15deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Path_382 {
+	overflow: visible;
+	position: absolute;
+	width: 1848.371px;
+	height: 1451.34px;
+	transform: translate(8816.389px, 24490.393px) matrix(1,0,0,1,-8660.0625,-23756.8111) rotate(-15deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_4 {
+	opacity: 0.3;
+}
+.Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	height: 86px;
+	left: 695.389px;
+	top: 1611.393px;
+}
+#_ {
+	position: absolute;
+	left: 757.389px;
+	top: 1410.393px;
+	overflow: visible;
+	width: 12px;
+	white-space: nowrap;
+	line-height: 97px;
+	margin-top: -30px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(255,83,83,1);
+	letter-spacing: -0.07px;
+}
+#Group_235 {
+	position: absolute;
+	width: 708px;
+	height: 168px;
+	left: 876.389px;
+	top: 1302.393px;
+	overflow: visible;
+}
+#AI_Databases_ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 701px;
+	height: 111px;
+	line-height: 97px;
+	margin-top: -11px;
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 75px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.07px;
+}
+#Leveraging_the_tools_of_AI_and {
+	opacity: 0.6;
+	position: absolute;
+	left: 0px;
+	top: 131px;
+	overflow: visible;
+	width: 709px;
+	height: 37px;
+	line-height: 35px;
+	margin-top: -7.5px;
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Ellipse_23 {
+	position: absolute;
+	overflow: visible;
+	width: 4px;
+	height: 4px;
+	left: 1747.389px;
+	top: 3161.393px;
+}
+#asset_1 {
+	filter: drop-shadow(0px 50px 50px rgba(67, 75, 82, 0.259));
+	position: absolute;
+	width: 437.937px;
+	height: 391.566px;
+	left: 340.238px;
+	top: 1180.125px;
+	overflow: visible;
+}
+#ID3_Mobile_Mobile_Charts_with_ {
+	filter: drop-shadow(0px 50px 50px rgba(67, 75, 82, 0.259));
+	position: absolute;
+	width: 434.794px;
+	height: 369.035px;
+	left: 441.394px;
+	top: 1516.674px;
+	overflow: visible;
+}
+#ID3_Mobile_Mobile_Charts_with__b {
+	filter: drop-shadow(0px 50px 50px rgba(67, 75, 82, 0.259));
+	position: absolute;
+	width: 373.511px;
+	height: 440.332px;
+	left: 1403.467px;
+	top: 1623.727px;
+	overflow: visible;
+}
+#ID3_Mobile_Mobile_Charts_with__ca {
+	filter: drop-shadow(0px 50px 50px rgba(67, 75, 82, 0.259));
+	position: absolute;
+	width: 334.18px;
+	height: 393.93px;
+	left: 1713.333px;
+	top: 1544.928px;
+	overflow: visible;
+}
+#ID3_Mobile_Mobile_Charts_with__cb {
+	filter: drop-shadow(0px 50px 50px rgba(0, 112, 194, 0.259));
+	position: absolute;
+	width: 374.145px;
+	height: 317.223px;
+	left: 1050.039px;
+	top: 1713.377px;
+	overflow: visible;
+}
+#ID2_Desktop_Charts__Charts_wit {
+	filter: drop-shadow(0px 50px 50px rgba(67, 75, 82, 0.259));
+	position: absolute;
+	width: 347.376px;
+	height: 486.676px;
+	left: 1997.816px;
+	top: 1472.143px;
+	overflow: visible;
+}
+#ID3_Mobile_Mobile_Charts_with__cc {
+	filter: drop-shadow(0px 50px 50px rgba(67, 75, 82, 0.259));
+	position: absolute;
+	width: 482.094px;
+	height: 408.908px;
+	left: 603.389px;
+	top: 1808.869px;
+	overflow: visible;
+}
+#ID2_Desktop_Charts__Charts_wit_b {
+	filter: drop-shadow(0px 50px 50px rgba(70, 73, 77, 0.259));
+	position: absolute;
+	width: 582.169px;
+	height: 416px;
+	left: 1546.804px;
+	top: 1958.393px;
+	overflow: visible;
+}
+#asset_1_b {
+	filter: drop-shadow(0px 50px 50px rgba(67, 75, 82, 0.259));
+	position: absolute;
+	width: 373.397px;
+	height: 334.506px;
+	left: 1133.59px;
+	top: 1986.373px;
+	overflow: visible;
+}
+.play_button {
+	overflow: visible;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 1210.389px;
+	top: 6942.393px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID761 {
+	position: absolute;
+	width: 460px;
+	height: 345px;
+	left: 775px;
+	top: 2454px;
+	overflow: visible;
+}
+#Group_206 {
+	position: absolute;
+	width: 516px;
+	height: 226px;
+	left: 156px;
+	top: 2534px;
+	overflow: visible;
+}
+#Data_Visualizations___ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 427px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: rgba(0,0,0,1);
+}
+#AI_Databases_comes_with_some_o {
+	position: absolute;
+	left: 0px;
+	top: 80px;
+	overflow: visible;
+	width: 517px;
+	height: 146px;
+	line-height: 35px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Group_207 {
+	position: absolute;
+	width: 472px;
+	height: 226px;
+	left: 763px;
+	top: 2035px;
+	overflow: visible;
+}
+#Revolutionising_Search {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 396px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	color: rgba(0,0,0,1);
+}
+#AI_Databases_introduces_revolu {
+	position: absolute;
+	left: 0px;
+	top: 80px;
+	overflow: visible;
+	width: 473px;
+	height: 146px;
+	line-height: 35px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Group_209 {
+	position: absolute;
+	width: 511px;
+	height: 226px;
+	left: 192px;
+	top: 1587px;
+	overflow: visible;
+}
+#Leveraging_AI_Tools {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 423px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: rgba(0,0,0,1);
+}
+#The_tools_of_Artificial_Intell {
+	position: absolute;
+	left: 0px;
+	top: 80px;
+	overflow: visible;
+	width: 512px;
+	height: 146px;
+	line-height: 35px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Group_205 {
+	position: absolute;
+	width: 571px;
+	height: 262px;
+	left: 122px;
+	top: 2030px;
+	overflow: visible;
+}
+.Rectangle_881 {
+	filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 589px;
+	height: 280px;
+	left: 0px;
+	top: 0px;
+}
+#Group_201 {
+	position: absolute;
+	width: 489px;
+	height: 159.244px;
+	left: 41px;
+	top: 25px;
+	overflow: visible;
+}
+#New_Search_bar {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	cursor: pointer;
+	--web-animation: fadein 0.85s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Search_Interface.html;
+}
+#Group_139 {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_800 {
+	position: absolute;
+	overflow: visible;
+	width: 490px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 0px;
+	height: 14.574px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,18,13) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Path_1008 {
+	overflow: visible;
+	position: absolute;
+	width: 0px;
+	height: 9.244px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,20,15) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Path_1009 {
+	overflow: visible;
+	position: absolute;
+	width: 17.703px;
+	height: 21.244px;
+	transform: translate(-756px, -1106px) matrix(1,0,0,1,772,1244) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Group_202 {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 41px;
+	top: 68px;
+	overflow: visible;
+}
+#New_Search_bar_cv {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	cursor: pointer;
+	--web-animation: fadein 0.85s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Search_Interface.html;
+}
+#Group_139_cw {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_800_cx {
+	position: absolute;
+	overflow: visible;
+	width: 490px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+.Path_2_cy {
+	overflow: visible;
+	position: absolute;
+	width: 0px;
+	height: 14.574px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,18,13) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Path_1008_cz {
+	overflow: visible;
+	position: absolute;
+	width: 0px;
+	height: 9.244px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,20,15) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Group_203 {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 41px;
+	top: 111px;
+	overflow: visible;
+}
+#New_Search_bar_c {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	cursor: pointer;
+	--web-animation: fadein 0.85s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Search_Interface.html;
+}
+#Group_139_c {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_800_c {
+	position: absolute;
+	overflow: visible;
+	width: 490px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+.Path_2_c {
+	overflow: visible;
+	position: absolute;
+	width: 0px;
+	height: 14.574px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,18,13) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Path_1008_c {
+	overflow: visible;
+	position: absolute;
+	width: 0px;
+	height: 9.244px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,20,15) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Group_204 {
+	position: absolute;
+	width: 489px;
+	height: 162px;
+	left: 41px;
+	top: 35px;
+	overflow: visible;
+}
+#New_Search_bar_da {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 0px;
+	top: 119px;
+	overflow: visible;
+	cursor: pointer;
+	--web-animation: fadein 0.85s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Search_Interface.html;
+}
+#Group_139_da {
+	position: absolute;
+	width: 489px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_800_da {
+	position: absolute;
+	overflow: visible;
+	width: 490px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+.Path_2_da {
+	overflow: visible;
+	position: absolute;
+	width: 0px;
+	height: 14.574px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,18,13) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Path_1008_db {
+	overflow: visible;
+	position: absolute;
+	width: 0px;
+	height: 9.244px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,20,15) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Path_1008_dc {
+	overflow: visible;
+	position: absolute;
+	width: 17.703px;
+	height: 21.244px;
+	transform: translate(-756px, -987px) matrix(1,0,0,1,772,987) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_882 {
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	height: 24px;
+	left: 90px;
+	top: 35px;
+}
+.Rectangle_883 {
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	height: 24px;
+	left: 179px;
+	top: 35px;
+}
+#Icon_metro_cross {
+	position: absolute;
+	width: 7.849px;
+	height: 9.849px;
+	left: 145.984px;
+	top: 43.576px;
+	overflow: visible;
+}
+.Icon_metro_cross_dg {
+	overflow: visible;
+	position: absolute;
+	width: 8.859px;
+	height: 10.879px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: AI_Databases_HomePage.html;
+	cursor: pointer;
+}
+#Icon_metro_cross_dh {
+	position: absolute;
+	width: 8.849px;
+	height: 11.849px;
+	left: 234.984px;
+	top: 41.576px;
+	overflow: visible;
+}
+.Icon_metro_cross_di {
+	overflow: visible;
+	position: absolute;
+	width: 9.859px;
+	height: 12.885px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: AI_Databases_HomePage.html;
+	cursor: pointer;
+}
+#Lorem {
+	position: absolute;
+	left: 96px;
+	top: 38px;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Lorem_dk {
+	position: absolute;
+	left: 96px;
+	top: 83px;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Ipsum_ {
+	position: absolute;
+	left: 185px;
+	top: 38px;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Ipsum__dm {
+	position: absolute;
+	left: 185px;
+	top: 83px;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Dolor {
+	position: absolute;
+	left: 276px;
+	top: 83px;
+	overflow: visible;
+	width: 40px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Sitamet {
+	position: absolute;
+	left: 276px;
+	top: 129px;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Lorem_dp {
+	position: absolute;
+	left: 96px;
+	top: 129px;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Ipsum__dq {
+	position: absolute;
+	left: 185px;
+	top: 129px;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Lorem_dr {
+	position: absolute;
+	left: 96px;
+	top: 171px;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Ipsum__ds {
+	position: absolute;
+	left: 185px;
+	top: 171px;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#consectetur {
+	position: absolute;
+	left: 276px;
+	top: 171px;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+.Ellipse_11 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 354px;
+	top: 2294px;
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 355px;
+	top: 2319px;
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 356px;
+	top: 2344px;
+}
+.Ellipse_4_dx {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 366px;
+	top: 2365px;
+}
+.Ellipse_5 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 389px;
+	top: 2367px;
+}
+.Ellipse_6 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 414px;
+	top: 2367px;
+}
+.Ellipse_16 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 534px;
+	top: 2366px;
+}
+.Ellipse_21 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 649px;
+	top: 2366px;
+}
+.Ellipse_26 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 764px;
+	top: 2366px;
+}
+.Ellipse_31 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 880px;
+	top: 2365px;
+}
+.Ellipse_7 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 438px;
+	top: 2367px;
+}
+.Ellipse_15 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 557px;
+	top: 2366px;
+}
+.Ellipse_20 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 672px;
+	top: 2366px;
+}
+.Ellipse_25 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 787px;
+	top: 2366px;
+}
+.Ellipse_30 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 903px;
+	top: 2365px;
+}
+.Ellipse_8 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 462px;
+	top: 2367px;
+}
+.Ellipse_13 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 580px;
+	top: 2366px;
+}
+.Ellipse_18 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 695px;
+	top: 2366px;
+}
+.Ellipse_23_ec {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 810px;
+	top: 2366px;
+}
+.Ellipse_28 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 928px;
+	top: 2365px;
+}
+.Ellipse_9 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 486px;
+	top: 2367px;
+}
+.Ellipse_14 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 603px;
+	top: 2366px;
+}
+.Ellipse_19 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 718px;
+	top: 2366px;
+}
+.Ellipse_24 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 833px;
+	top: 2366px;
+}
+.Ellipse_29 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 953px;
+	top: 2365px;
+}
+.Ellipse_10 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,509.9997,2366.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_12 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,625.9997,2366.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_17 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,740.9997,2366.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_22 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,855.9997,2366.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_32 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,970.9997,2379.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_33 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,975.9997,2403.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_34 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,975.9997,2429.0005) rotate(7deg);
+	transform-origin: center;
+}
+#Image_9 {
+	filter: drop-shadow(0px 50px 50px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 482px;
+	height: 379px;
+	left: 763px;
+	top: 1510px;
+	overflow: visible;
+}
+.Ellipse_67 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 354px;
+	top: 2005px;
+}
+.Ellipse_68 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 354px;
+	top: 1981px;
+}
+.Ellipse_69 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 356px;
+	top: 1958px;
+}
+.Ellipse_70 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 366px;
+	top: 1934px;
+}
+.Ellipse_71 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 389px;
+	top: 1927px;
+}
+.Ellipse_72 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 414px;
+	top: 1927px;
+}
+.Ellipse_73 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 534px;
+	top: 1926px;
+}
+.Ellipse_74 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 649px;
+	top: 1926px;
+}
+.Ellipse_75 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 764px;
+	top: 1926px;
+}
+.Ellipse_76 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 880px;
+	top: 1925px;
+}
+.Ellipse_77 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 438px;
+	top: 1927px;
+}
+.Ellipse_78 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 557px;
+	top: 1926px;
+}
+.Ellipse_79 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 672px;
+	top: 1926px;
+}
+.Ellipse_80 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 787px;
+	top: 1926px;
+}
+.Ellipse_81 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 903px;
+	top: 1925px;
+}
+.Ellipse_82 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 462px;
+	top: 1927px;
+}
+.Ellipse_83 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 580px;
+	top: 1926px;
+}
+.Ellipse_84 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 695px;
+	top: 1926px;
+}
+.Ellipse_85 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 810px;
+	top: 1926px;
+}
+.Ellipse_86 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 928px;
+	top: 1925px;
+}
+.Ellipse_87 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 486px;
+	top: 1927px;
+}
+.Ellipse_88 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 603px;
+	top: 1926px;
+}
+.Ellipse_89 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 718px;
+	top: 1926px;
+}
+.Ellipse_90 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 833px;
+	top: 1926px;
+}
+.Ellipse_91 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 23px;
+	left: 953px;
+	top: 1925px;
+}
+.Ellipse_92 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,510.0007,1926.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_93 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,626.0007,1926.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_94 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,741.0007,1926.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_95 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,856.0007,1926.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_96 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,974.0007,1914.0005) rotate(7deg);
+	transform-origin: center;
+}
+.Ellipse_97 {
+	width: 21px;
+	height: 23px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,974.0007,1889.0005) rotate(7deg);
+	transform-origin: center;
+}

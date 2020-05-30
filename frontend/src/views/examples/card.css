@@ -1,0 +1,699 @@
+body {background-color: rgb(178, 197, 191);}
+.cards{
+  height:110vh;
+}
+.sub-cards{
+  display: flex;
+  flex-direction: column;
+  padding: 0  17.5% 0 ; 
+  height:100%;
+
+}
+.car-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card-text1 p{padding-top: 1vh;
+line-height: 150%;
+}
+.card-text1{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 01em;
+  padding-top: 0.vh;
+  line-height: 1.1em;
+}.card-text1 h2{
+  padding-top: 2%;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.card0 {
+  font-size: medium;
+  height: 50vh;
+  width: 30vw;
+  text-align: left;
+  margin: 2%;
+  border-radius: 50px;
+  background-image: url(./AIeconomics.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  float: left;
+  background-clip: content-box;
+
+  flex-direction: column;
+  background-size: 100% 60%;
+  line-height: 1.1em;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-position-y: 1% ; */
+
+}
+.card2{
+  font-size: medium;
+  height: 50vh;
+  width: 30vw;
+  text-align: left;
+  margin: 2%;
+  border-radius: 50px;
+  background-image: url(./Demographics.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  float: left;
+  background-clip: content-box;
+  flex-direction: column;
+
+  line-height: 1.1em;
+  background-size: 100% 65%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card1{
+  font-size: medium;
+  height: 50vh;
+  width: 30vw;
+  text-align: left;
+  margin: 2%;
+  border-radius: 50px;
+  background-image: url(./TradeAnalytics.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  float: left;
+  background-clip: content-box;
+  flex-direction: column;
+
+  line-height: 1.1em;
+  background-size:100% 65%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card3{
+  font-size: medium;
+  height: 50vh;
+  width: 30vw;
+  text-align: left;
+  margin: 2%;
+  border-radius: 50px;
+  background-image: url(./ai-data.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  float: left;
+  background-clip: content-box;
+  flex-direction: column;
+
+  line-height: 1.1em;
+  background-size:100% 65%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-size: contain;
+}
+
+
+.card-btnn {
+  border-radius: 50px;
+  background-color: black;
+  text-align: center;
+  height: 5vh;
+  width: 10vw;
+  color: white;
+  font-weight: 600;
+  font-size: 0.95em;
+  margin-top: 2%;
+  box-shadow: 0 0 4px 4px rgba(240, 238, 128, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+}
+.sub-card{
+  background-color: white;
+  text-align: center;
+  margin-top:29.2vh;
+  height: 21vh;
+  border-radius: 50px;
+  float: right;
+  min-width: 100%;
+  border-top: ridge;
+}
+
+
+@media (min-width: 1440px) and (max-width: 1600px)  {
+  
+  .cards{
+    height:100vh;
+  }
+    .car-flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .sub-cards{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding: 0  10% 0 ; 
+  }
+
+  .card-text1{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 01em;
+    padding-top: 0.5vh;
+    line-height: 1.1em;
+  }.card-text1 h2{
+    padding-top: 2%;
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  .card0 {
+    height: 45vh;
+    width: 50vw;
+    border-radius: 40px;
+    background-size: 100% 65%;
+    line-height: 1em;
+  
+  }
+  .card2{
+    height: 45vh;
+    width: 50vw;
+    border-radius: 40px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  
+  }
+  .card1{
+    height: 45vh;
+    width: 50vw;
+    border-radius: 40px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card3{
+    height: 45vh;
+    width: 50vw;
+    border-radius: 40px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card-btnn {
+    border-radius: 40px;
+    height: 5vh;
+    width: 12vw;
+    font-weight: 600;
+    margin-top: 1% ;
+  }
+  .sub-card{
+    margin-top:25vh;
+    bottom: 0em;
+    height: 19.5vh;
+    border-radius: 40px;
+  }
+}
+@media (min-width: 1281px) and (max-width: 1440px)  {
+  
+  .cards{
+    height:100vh;
+  }
+    .car-flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .sub-cards{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding: 0  5% 0 ; 
+  }
+
+  .card-text1{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 01em;
+    padding-top: 0.5vh;
+    line-height: 1.1em;
+  }.card-text1 h2{
+    padding-top: 2%;
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  .card0 {
+    height: 45vh;
+    width: 50vw;
+    border-radius: 40px;
+    background-size: 100% 65%;
+    line-height: 1em;
+  
+  }
+  .card2{
+    height: 45vh;
+    width: 50vw;
+    border-radius: 40px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  
+  }
+  .card1{
+    height: 45vh;
+    width: 50vw;
+    border-radius: 40px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card3{
+    height: 45vh;
+    width: 50vw;
+    border-radius: 40px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card-btnn {
+    border-radius: 40px;
+    height: 5vh;
+    width: 12vw;
+    font-weight: 600;
+    margin-top: 0% ;
+    font-size: 0.75em;
+  }
+  .sub-card{
+    margin-top:25vh;
+    bottom: 0em;
+    height: 19.5vh;
+    border-radius: 40px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .cards{
+    height:88vh;
+  }
+  .card-text1 p{padding-top: 0.3vh;
+    line-height: 125%;
+    }
+    .car-flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .sub-cards{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding: 0 0px;
+  }
+
+  .card-text1{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 00.85em;
+    padding-top: 0.5vh;
+    line-height: 1.1em;
+  }.card-text1 h2{
+    font-size: 1.75em;
+    font-weight: 900;
+  }
+  .card0 {
+    height: 40vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 40px;
+    background-size: 100% 65%;
+    line-height: 1em;
+  
+  }
+  .card2{
+    height: 40vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 40px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  
+  }
+  .card1{
+    height: 40vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 40px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card3{
+    height: 40vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 40px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card-btnn {
+    border-radius: 40px;
+    height: 5vh;
+    width: 20vw;
+    font-weight: 600;
+    margin-top: 0;
+  }
+  .sub-card{
+    margin-top:22.5vh;
+    bottom: 0em;
+    height: 17vh;
+    border-radius: 40px;
+  }
+  
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cards{
+    height:75vh;
+  }
+  .card-text1 p{padding-top: 0.3vh;
+    line-height: 130%;
+    }
+    .car-flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .sub-cards{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding: 0 0px;
+  }
+  .card-text{
+    font-size: 0.75em;
+    padding-top: 0.5vh;
+    line-height: 0.95em;
+  }.card-text h2{
+    font-size: 1.5em;
+    font-weight: bolder;
+  } .card-text1{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 0.7em;
+    padding-top: 0.5vh;
+    line-height: 1.1em;
+  }.card-text1 h2{
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  .card0 {
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 30px;
+    background-size: 100% 65%;
+    line-height: 1em;
+  
+  }
+  .card2{
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 30px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  
+  }
+  .card1{
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 30px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card3{
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 30px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card-btnn {
+    border-radius: 30px;
+    height: 5vh;
+    width: 20vw;
+    margin-top: -2%;
+    font-weight: 600; 
+    font-size: 0.8em;
+  }
+  .sub-card{
+    margin-top:20vh;
+    bottom: 0em;
+    height: 14.5vh;
+    border-radius: 30px;
+  }
+
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .cards{
+    height:75vh;
+  }
+  .card-text1 p{padding-top: 0.3vh;
+    line-height: 130%;
+    }
+    .car-flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .sub-cards{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding: 0 0px;
+  }
+  .card-text{
+    font-size: 0.75em;
+    padding-top: 0.5vh;
+    line-height: 0.95em;
+  }.card-text h2{
+    font-size: 1.5em;
+    font-weight: bolder;
+  } .card-text1{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 0.7em;
+    padding-top: 0.5vh;
+    line-height: 1.1em;
+  }.card-text1 h2{
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  .card0 {
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 30px;
+    background-size: 100% 65%;
+    line-height: 1em;
+  
+  }
+  .card2{
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 30px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  
+  }
+  .card1{
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 30px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card3{
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    /* margin: 2%; */
+    border-radius: 30px;
+    background-size: 100% 60%;
+    line-height: 1em;
+  }
+  .card-btnn {
+    border-radius: 30px;
+    height: 5vh;
+    width: 20vw;
+    font-weight: 600;
+    margin-top: -2%;
+  }
+  .sub-card{
+    margin-top:20vh;
+    bottom: 0em;
+    height: 14.5vh;
+    border-radius: 30px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .car-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .card-text1 p{padding-top: 0.1vh;
+    line-height: 120%;
+    }
+  .cards{
+    height:150vh;
+  }
+
+  .sub-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 0 7% 0 ; 
+    /* justify-content: space-evenly; */
+  }
+  .card-text{
+    font-size: 0.75em;
+    padding-top: 0.5vh;
+    line-height: 0.95em;
+  }.card-text h2{
+    font-size: 1.5em;
+    font-weight: bolder;
+  } .card-text1{
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+    font-size: 0.75em;
+    padding-top: 0.5vh;
+    line-height: 1.1em;
+  }.card-text1 h2{
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  .card0 {
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    border-radius: 30px;
+    line-height: 1em;
+  
+  }
+  .card2{
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    border-radius: 30px;
+    line-height: 1em;
+  
+  }
+  .card1{
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    border-radius: 30px;
+    line-height: 1em;
+  }
+  .card3{
+    font-size: medium;
+    height: 35vh;
+    width: 80vw;
+    border-radius: 30px;
+    line-height: 1em;
+  }
+  .card-btnn {
+    border-radius: 30px;
+    height: 5vh;
+    width: 30vw;
+    font-weight: 600;
+    margin-top: -2.25%;
+  }
+  .sub-card{
+    margin-top:20vh;
+    bottom: 0em;
+    height: 14.5vh;
+    border-radius: 30px;
+  }
+  
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .car-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card-text1 p{padding-top: 0.1vh;
+  line-height: 110%;
+  }
+  .cards{
+    height:150vh;
+    width: 10vw;
+
+  }
+  .sub-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50% 0 ; 
+
+    /* justify-content: space-evenly; */
+  }
+  .card-text{
+    font-size: 0.75em;
+    padding-top: 0.3vh;
+    line-height: 0.95em;
+  }.card-text h2{
+    font-size: 1.5em;
+    font-weight: bolder;
+  } .card-text1{
+    font-size: 0.75em;
+    padding-top: 0.1vh;
+    line-height: 0.95em;
+  }.card-text1 h2{
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  .card0 {
+    font-size: medium;
+    height: 35vh;
+    width: 90vw;
+    border-radius: 30px;
+    line-height: 1em;
+    margin-bottom: 2vh;
+  
+  }
+  .card2{
+    font-size: medium;
+    height: 35vh;
+    width: 90vw;
+    border-radius: 30px;
+    margin-bottom: 2vh;
+    line-height: 1em;
+  
+  }
+  .card1{
+    font-size: medium;
+    height: 35vh;
+    width: 90vw;
+    border-radius: 30px;
+    margin-bottom: 2vh;
+    line-height: 1em;
+  }
+  .card3{
+    font-size: medium;
+    height: 35vh;
+    width: 90vw;
+    border-radius: 30px;
+    margin-bottom: 2vh;
+    line-height: 1em;
+  }
+  .card-btnn {
+    border-radius: 30px;
+    margin-top: -4%;
+    height: 5vh;
+    width: 50vw;
+    font-weight: 600;
+  }
+  .sub-card{
+    margin-top:20vh;
+    bottom: 0em;
+    height: 14.5vh;
+    border-radius: 30px;
+  }
+  
+}

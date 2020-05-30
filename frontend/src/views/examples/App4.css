@@ -1,0 +1,27 @@
+.hpage2{
+    width: 100%;
+    text-transform: capitalize;
+    /* padding-left: 2%; */
+    display: flex;
+    flex-direction: row;
+}
+.left-div{
+    width: 25%;
+    padding-left: 2%;
+    text-transform: capitalize;
+    position: fixed;
+    float: left;
+    z-index: 5;
+    /* background-color: white; */
+}
+.right-div{
+    margin-left:27%;
+    width: 75%;
+    text-transform: capitalize;
+    float: right;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}

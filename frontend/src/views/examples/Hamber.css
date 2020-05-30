@@ -1,0 +1,899 @@
+
+body{
+    background-color: whitesmoke;
+    text-transform: capitalize; 
+}
+.outer a:link{
+color: black;
+}.outer a:hover{
+color: grey;
+}.outer a:visited{
+color: black;
+}.outer a:visited:hover{
+color: grey;
+}
+.headers h1{
+font-size: 2rem;
+}
+
+.outer{
+    width: 100%;
+    display: flex;
+    height: 27vh;
+    flex-direction: column;
+    border: 1px black;
+    background-color: white;
+    padding:1.0%;
+    margin-top: 7px;
+    border: groove;
+    border-color:grey ;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-width: 0.1px;
+    /* justify-content: space-evenly; */
+}
+.headers{
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-decoration-color: black;
+}
+.lh1{
+    width: 90%;
+    border: 1px solid black;
+    margin-left: -0.001%;
+    margin-top: -0.5%;
+}
+.lh2{
+    margin-left: 0.1%;
+    width: 75%;
+    margin-top: -0.5%;
+    border: 1px solid black;
+    margin-right: 10%;
+}
+.lh3{
+    width: 90%;
+    margin-top: -0.5%;
+    margin-left: -0.001%;
+    border: 1px solid black;
+}
+.ph1{
+    padding-left: 4%;
+    width:45%;
+    font-size: 10px;
+}
+.ph2{
+    padding-left: 3.75%;
+    width:30%;
+    font-size: 10px;
+}
+.ph3{
+    padding-left: 4.75%;
+    width:35%;
+    font-size: 10px;
+}
+.subouter{
+    display: flex;
+    flex-direction: row;
+    height: 75%;
+    width: 100%;
+    /* margin-top: 0.5%; */
+    margin-right: 50%;
+    justify-content: stretch;
+}
+.products{
+    width: 45%;
+    text-align: center;
+    justify-content: space-around;
+    /* background-color: white; */
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.subp1{
+    width: 53%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 10%;
+    /* background-color: white; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+.subp2{
+    width: 47%;
+    text-align: center;
+    justify-content: space-evenly;
+    /* justify-content: initial; */
+    align-items: flex-start;
+    padding-left: 10%;
+    /* background-color: white; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.50rem;
+}
+.Services{
+    width: 30%;
+    justify-content: space-evenly;
+    text-align: center;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    /* background-color: white; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    font-size: 1.50rem;
+    /* padding-top: 5px; */
+}
+.Others{
+    width: 35%;
+    text-align: center;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    /* background-color: white; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 4%;
+    font-size: 1.50rem;
+}
+.Others1{
+    width: 47%;
+    justify-content: space-evenly;
+    text-align: center;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    /* background-color: white; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    font-size: 1.50rem;
+    color: black;
+}
+.Others2{
+    width: 53%;
+    justify-content: space-evenly;
+    text-align: center;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    /* background-color: white; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    font-size: 1.50rem;
+}
+
+@media (min-width: 1281px) and (max-width: 1440px)  {
+  
+    .outer a:link{
+        font-size: 2em;
+        }
+    .headers h1{
+        font-size: 2.25em;
+        }
+        
+        .outer{
+            width: 100%;
+            display: flex;
+            height: 27vh;
+            flex-direction: column;
+            padding:1.0%;
+            margin-top: 1px;
+        }
+        .headers{
+            height: 3vh;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding-top: 0.75vh;
+        }.lh1{
+            width: 85%;
+            border: 1px solid black;
+            margin-left: -0.001%;
+            margin-top: -0.5%;
+        }
+        .lh2{
+            margin-left: 0.1%;
+            width: 80%;
+            margin-top: -0.5%;
+            border: 1px solid black;
+            margin-right: 10%;
+        }
+        .ph1{
+            padding-left: 4%;
+            width:45%;
+            font-size: 10px;
+        }
+        .ph2{
+            padding: left 3.75%;
+            width:30%;
+            font-size: 10px;
+        }
+        .ph3{
+            padding-left: 4%;
+            width:35%;
+            font-size: 10px;
+        }
+    .subouter{
+        height: 75%;
+        width: 100%;
+        margin-right: 50%;
+    }
+    .products{
+        padding-top: 01%;
+        width: 45%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .subp1{
+        width: 85%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    padding-left: 10%;
+    font-size: 0.5em;
+    }
+    .subp2{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+    padding-left: -30%;
+    display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+    }
+    .Services{
+        margin-top: 0.5%;
+        width: 30%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        line-height: 250%;
+    }
+    .Others{
+        width: 35%;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        font-size: 0.50rem;
+        padding-left: -10%;
+        /* padding-top: 1.5%; */
+    }
+    .Others1{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        font-size: 0.50rem;
+    }
+    .Others2{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        padding-left: 1%;
+    }
+    
+  }
+  
+ 
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .outer a:link{
+        font-size: 1.75em;
+        }
+    .headers h1{
+        font-size: 1.95em;
+        }
+        
+        .outer{
+            width: 100%;
+            display: flex;
+            height: 27vh;
+            flex-direction: column;
+            padding:1.0%;
+            margin-top: 16px;
+        }
+        .headers{
+            height: 3vh;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding-top: 0.75vh;
+        }.lh1{
+            width: 85%;
+            border: 1px solid black;
+            margin-left: -0.001%;
+            margin-top: -0.5%;
+        }
+        .lh2{
+            margin-left: 0.1%;
+            width: 80%;
+            margin-top: -0.5%;
+            border: 1px solid black;
+            margin-right: 10%;
+        }
+        .ph1{
+            padding-left: 4%;
+            width:45%;
+            font-size: 10px;
+        }
+        .ph2{
+            padding: left 3.75%;
+            width:30%;
+            font-size: 10px;
+        }
+        .ph3{
+            padding-left: 4%;
+            width:35%;
+            font-size: 10px;
+        }
+    .subouter{
+        height: 75%;
+        width: 100%;
+        margin-right: 50%;
+    }
+    .products{
+        padding-top: 0.5%;
+        width: 45%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .subp1{
+        width: 85%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    padding-left: 10%;
+    font-size: 0.5em;
+    }
+    .subp2{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+    padding-left: -30%;
+    display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+    }
+    .Services{
+        margin-top: 0.5%;
+        width: 30%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        line-height: 250%;
+    }
+    .Others{
+        width: 35%;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        font-size: 0.50rem;
+        padding-left: -10%;
+        /* padding-top: 1.5%; */
+    }
+    .Others1{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        font-size: 0.50rem;
+    }
+    .Others2{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        padding-left: 1%;
+    }
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
+    .outer a:link{
+        font-size: 1.6em;
+        }
+    .headers h1{
+        font-size: 1.75em;
+        }
+        
+        .outer{
+            width: 100%;
+            display: flex;
+            height: 27vh;
+            flex-direction: column;
+            padding:1.0%;
+            margin-top: 7px;
+        }
+        .headers{
+            height: 3vh;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding-top: 0.75vh;
+        }
+        .lh2{
+            margin-left: 0.1%;
+            width: 90%;
+            margin-top: -0.5%;
+            border: 1px solid black;
+            margin-right: 10%;
+        }
+        .ph1{
+            padding-left: 2.5%;
+            width:35%;
+            font-size: 10px;
+        }
+        .ph2{
+            padding-left: 6%;
+            width:50%;
+            font-size: 10px;
+        }
+        .ph3{
+            padding-left: 5%;
+            width:45%;
+            font-size: 10px;
+        }
+    .subouter{
+        height: 75%;
+        width: 100%;
+        margin-right: 50%;
+    }
+    .products{
+        padding-top: 2%;
+        width: 40%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: left;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subp1{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.5em;
+    }
+    .subp2{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+    }
+    .Services{
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        line-height: 250%;
+    }
+    .Others{
+        width: 45%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        padding-top: 1.5%;
+    }
+    .Others1{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        font-size: 0.50rem;
+    }
+    .Others2{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        padding-left: 1%;
+    }
+       
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .outer a:link{
+        font-size: 1.5em;
+        }
+    .headers h1{
+        font-size: 1.65em;
+        }
+        
+        .outer{
+            width: 100%;
+            display: flex;
+            height: 27vh;
+            flex-direction: column;
+            padding:1.0%;
+            margin-top: 7px;
+        }
+        .headers{
+            height: 3vh;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding-top: 0.75vh;
+        }
+        .lh2{
+            margin-left: 0.1%;
+            width: 90%;
+            margin-top: -0.5%;
+            border: 1px solid black;
+            margin-right: 10%;
+        }
+        .ph1{
+            padding-left: 2.5%;
+            width:35%;
+            font-size: 10px;
+        }
+        .ph2{
+            padding-left: 6%;
+            width:50%;
+            font-size: 10px;
+        }
+        .ph3{
+            padding-left: 5%;
+            width:45%;
+            font-size: 10px;
+        }
+    .subouter{
+        height: 75%;
+        width: 100%;
+        margin-right: 50%;
+    }
+    .products{
+        padding-top: 2%;
+        width: 40%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: left;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subp1{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.5em;
+    }
+    .subp2{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+    }
+    .Services{
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        line-height: 250%;
+    }
+    .Others{
+        width: 45%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        padding-top: 1.5%;
+    }
+    .Others1{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        font-size: 0.50rem;
+    }
+    .Others2{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        padding-left: 1%;
+    }
+    
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .outer a:link{
+        font-size: 1.3em;
+        }
+    .headers h1{
+        font-size: 1.4em;
+        }
+        
+        .outer{
+            width: 100%;
+            display: flex;
+            height: 27vh;
+            flex-direction: column;
+            padding:1.0%;
+            margin-top: 7px;
+        }
+        .headers{
+            height: 3vh;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding-top: 0.75vh;
+        }
+        .lh2{
+            margin-left: 0.1%;
+            width: 90%;
+            margin-top: -0.5%;
+            border: 1px solid black;
+            margin-right: 10%;
+        }
+        .ph1{
+            padding-left: 2.5%;
+            width:35%;
+            font-size: 10px;
+        }
+        .ph2{
+            padding-left: 6%;
+            width:50%;
+            font-size: 10px;
+        }
+        .ph3{
+            padding-left: 5%;
+            width:45%;
+            font-size: 10px;
+        }
+    .subouter{
+        height: 75%;
+        width: 100%;
+        margin-right: 50%;
+    }
+    .products{
+        padding-top: 1%;
+        width: 40%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: left;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subp1{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.5em;
+    }
+    .subp2{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+    }
+    .Services{
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        line-height: 250%;
+    }
+    .Others{
+        width: 45%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+    }
+    .Others1{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        font-size: 0.50rem;
+    }
+    .Others2{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        padding-left: 1%;
+    }
+    
+  }
+ 
+ @media (min-width: 320px) and (max-width: 480px) {
+    .outer a:link{
+        font-size: 1.2em;
+        }
+    .headers h1{
+        font-size: 1.3em;
+        }
+        
+        .outer{
+            width: 100%;
+            display: flex;
+            height: 27vh;
+            flex-direction: column;
+            padding:1.0%;
+            margin-top: 7px;
+        }
+        .headers{
+            height: 3vh;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding-top: 0.75vh;
+        }
+        .lh2{
+            margin-left: 0.1%;
+            width: 90%;
+            margin-top: -0.5%;
+            border: 1px solid black;
+            margin-right: 10%;
+        }
+        .ph1{
+            padding-left: 3%;
+            width:35%;
+            font-size: 10px;
+        }
+        .ph2{
+            padding-left: 4.5%;
+            width:50%;
+            font-size: 10px;
+        }
+        .ph3{
+            padding-left: 1%;
+            width:40%;
+            font-size: 10px;
+        }
+    .subouter{
+        height: 75%;
+        width: 100%;
+        margin-right: 50%;
+    }
+    .products{
+        width: 40%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: left;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subp1{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.5em;
+    }
+    .subp2{
+        width: 100%;
+        text-align: left;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+    }
+    .Services{
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        line-height: 250%;
+    }
+    .Others{
+        width: 45%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+    }
+    .Others1{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        font-size: 0.50rem;
+    }
+    .Others2{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.50rem;
+        padding-left: 1%;
+    }
+  }

@@ -1,0 +1,70 @@
+
+.main-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sub-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-content: center; */
+    overflow-y: scroll;
+    align-items: center;
+    /* height: 950px; */
+}
+.sub-tab1{
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    height: 425px;
+}
+.sub-tab2{
+    overflow-y: scroll;
+    padding-top: 2.5rem;
+    display: flex;
+    height: 425px;
+    flex-direction: row;
+}
+.sub-tab3{
+    /* overflow-y: scroll; */
+    padding-top: 2.5rem;
+    display: flex;
+    height: 425px;
+    flex-direction: row;
+}
+/* table, th, td {
+    border: 1px solid black;
+  } */
+  td{
+      padding-left: 5%;
+  }
+  th{
+      padding-left: 5%;
+  }
+  #tabsty{
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+    border: 2px solid #ddd;
+    width: 100%;
+  }
+  #tabsty td, #tabsty th {
+    border: 0.5px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tabsty tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tabsty tr:hover {background-color: #ddd;}
+  
+  #tabsty th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(166, 224, 210);
+    color: white;
+  }
+  /* .headtable{
+    position: static;
+  } */

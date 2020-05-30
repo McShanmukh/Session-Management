@@ -1,0 +1,120 @@
+.base-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header {
+    font-size: 25px;
+    margin-top: 2em;
+    // font-weight: ;
+    font-family: "Open Sans", sans-serif;
+
+  }
+
+  .content {
+    display: inline;
+    flex-direction: column;
+
+    .image {
+      width: 25.5em;
+      margin-bottom: 5em;
+      margin-top: 2em;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .form {
+      margin-top: 1em;
+      display: flex;
+      flex-direction: flex;
+      align-items: initial;
+
+      // .splitname {
+        
+      //   display: flex;
+      //   // flex-direction: column;
+      //   flex-wrap: wrap;
+      //   justify-content: space-between;
+      //   // width:fit-content;  
+      
+      //   label {
+      //     font-size: 12.5px;
+      //     font-weight: bolder;
+      //     align-self: flex-start;
+      //     // left: 20;
+      //   }
+      //   input {
+      //     margin-top: 3px;
+      //     width: calc(50% 0px);
+      //     // min-width: 1em;
+      //     height: 35px;
+      //     padding: 5px 15px;
+      //     font-size: 15px;
+      //     font-family: "Open Sans", sans-serif;
+      //     background-color: #f3f3f3;
+      //     border: 0;
+      //     border-radius: 0.5px;
+      //     margin-bottom: 0px;
+      //     transition: all 250ms ease-in-out;
+      //     &:hover {
+      //       background-color: #4747ee;
+      //       box-shadow: 0px 0px 14px 0.3px #e7d90bb2;
+      //     }
+
+      //     &:focus {
+      //       outline: none;
+      //       box-shadow: 0px 0px 12px 0.8px #e7d90bb2; width: calc(50% - 20px);
+      //     }
+      //   }
+    // }
+      .forms{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex;
+        // justify-content: center;
+        // width: fit-content;
+        justify-content: flex-start;
+
+        label {
+          font-size: 15px;
+          font-weight: bolder;
+          text-align: left;
+          align-content: flex-start;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          padding-left: 10px;
+          // left: 20;
+        }
+        input {
+          margin-top: 3px;
+          min-width: 27.5em;
+          height: 35px;
+          padding: 5px 15px;
+          font-size: 15px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          background-color: #f3f3f3;
+          border: 0;
+          border-radius: 0.5px;
+          margin-bottom: 0px;
+          transition: all 250ms ease-in-out;
+          &:hover {
+            background-color: #fffeff;
+            box-shadow: 0px 0px 14px 0.3px #e7d90bb2;
+          }
+
+          &:focus {
+            outline: none;
+            box-shadow: 0px 0px 12px 0.8px #e7d90bb2;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 0.5em;
+  }
+}
