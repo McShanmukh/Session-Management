@@ -1,7 +1,7 @@
 import React, { Component,useEffect,useState } from 'react'
 import Cookies from 'js-cookie';
 import {useHistory} from "react-router-dom"
-
+import UserBio from "./UserBio"
 
 function Profile() {
     let history = useHistory();
@@ -95,12 +95,16 @@ function Profile() {
     }
 
 
-        return (
-            <div style={{marginTop:"300px"}}>
-                <h1> WELCOME Mr. {data["email"]} </h1>
-                <button onClick={logout}>Logout</button>
-            </div>
-        )
+    return (
+      <div style={{marginTop:"300px"}}>
+          <h1> WELCOME Mr. {data["email"]} </h1>
+
+          <br /><br />
+          <UserBio /><br /><br />
+          <button onClick={logout}>Logout</button>
+          
+      </div>
+  )
 }
 
 

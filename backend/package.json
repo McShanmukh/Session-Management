@@ -4,7 +4,8 @@
   "description": "Data analytics and Visualisation related project",
   "main": "start.js",
   "scripts": {
-    "dev": "nodemon start.js"
+    "dev": "nodemon start.js",
+    "start": "nodemon start.js"
   },
   "author": "Kashish Bakshi",
   "license": "ISC",
