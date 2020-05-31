@@ -3,16 +3,19 @@ var dotenv = require('dotenv')
 const router = require('express').Router();
 const passport = require('passport')
 var cookieParser = require('cookie-parser')
-const authroute = require('./routes/auth');
-const route = require('./routes/Routes');
+// const authroute = require('./routes/auth');
+// const route = require('./routes/Routes');
 // const profileroute = require('./routes/Profile');
 const mongoose = require('mongoose');
-const user = require('./Models/Users');
+// const user = require('./Models/Users');
 const redis= require('redis');
 const session = require('express-session')
 let RedisStore = require('connect-redis')(session)
 const bcrypt = require('bcryptjs');
-const User = require('./Models/Users.js');
+// const User = require('./Models/Users.js');
+const models = require('./Models/Users.js');
+const User = models.user
+const UserData = models.userData
 
 
 const cors= require('cors');
@@ -41,6 +44,7 @@ const PORT = process.env.PORT || 5000
 
 const expiry_sec = 25
 
+const redisClient = redis.createClient()
 // const redisClient = redis.createClient('6379', '35.200.229.235')
 // redisClient.on('connect', function() {
 //     console.log('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Redis client connected<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
@@ -49,9 +53,11 @@ const expiry_sec = 25
 // Use the session middleware
 const {NODE_ENV = 'devolopment',}=process.env
 const inprod = NODE_ENV === 'production'
+
+const store = new RedisStore({ host: '35.200.229.235', port: 6379, client: redisClient})
 app.use(session({ name:"Cookie-SID",
                   key: 'user_sid',
-                  store: new RedisStore({ host: '35.200.229.235', port: 6379, client: redisClient}),
+                  store: store,
                   secret: 'mightbesomething =here$#',
                   resave: false, 
                   saveUninitialized: true,
@@ -74,7 +80,7 @@ db.once("open", () => {
 });
 
 
-app.use(route)
+// app.use(route)
 
 // CORS
 app.use(function(req, res, next) {
@@ -120,7 +126,8 @@ app.use((req,res,next) => {
             // console.log("date",dateFormat(dat,"isoUtcDateTime"))
             // sessio.cookie.expires = dateFormat(dat,"isoUtcDateTime")
             // sessio.cookie.originalMaxAge += 1000*expiry_sec
-            req.session = sessio
+            req.session.cookie = sessio.cookie
+            req.session.email = sessio.email
             
             // req.session.cookie.expires = new Date(Date.now() + 10000)
             // req.session.cookie.maxAge = 10000
@@ -235,7 +242,7 @@ app.post('/register', async (req, res) => {
 });
 
 
-
+//PROFILE
 app.post("/profile",(req,res)=>{
 	//const {session} = 
 	//const {sesid} = req.body
@@ -259,6 +266,117 @@ app.post("/profile",(req,res)=>{
 	}
 })
 
+
+//Get User Details
+
+
+app.post("/details",  (req,res)=>{
+    const user2 = req.session.email
+    
+	if(user2){
+        // console.log("user2",user2)
+
+        // const emailExist =   User.findOne({email: user2}).populate("details").exec((err,userdat) =>{
+        //     if(err){
+        //         // return res.send("erroe")
+        //         console.log("error",err)
+        //         return res.send("error!")
+        //     }
+        //     else{
+        //         // console.log(userdat)
+        //         if(userdat !== null){
+        //         return res.send({"data":"true","Bio":userdat.details.Bio,"Profession":userdat.details.Profession})
+        //         }
+        //         else{
+        //             return res.send({"data":"false"})
+        //         }
+        //     }
+
+        // })
+        User.findOne({email: user2,details:{ $exists:true,$ne:null}}).populate("details").exec()
+            .then((resss)=>{
+                // console.log("ress",resss);res.send("ok");
+                
+                // console.log(userdat)
+                if(resss && resss.details !== null){
+                return res.send({"data":"true","Bio":resss.details.Bio,"Profession":resss.details.Profession})
+                }
+                else{
+                    return res.send({"data":"true","Bio":"","Profession":""})
+                }
+
+            })
+            .catch(err =>{
+                console.log("errroee",err)
+                return res.send({"data":"false"})
+            })
+
+        // return res.send("verified")
+	}
+	else{
+	    return res.send({"session":"expired"})
+    }
+    // res.send({"session":"expired"})
+})
+
+
+//Add User Details
+app.post("/adddetails",(req,res)=>{
+    var user_email = req.session.email
+    const {bio,Profession,type} = req.body
+    
+    if(user_email){
+        // User.findOne({email:user_email},{_id:1})
+        // UserData.insert({bio:bio})
+        if(type === "insert"){
+            insertBio(bio,Profession)
+                .then((insert_res) => {
+                    User.updateOne({email:user_email},{$set:{"details":insert_res._id}})
+                    .then(user_res => {
+                        
+                        
+                        if(user_res !== null){
+                            return res.send({"response":"sucefully inserted","session":""})
+                        }
+                        else{
+                            return res.send({"response":"user details not found","session":""})
+                        }
+                    })
+                    .catch(err => {
+                        console.log(err);
+                        return res.send({"response":"error"})
+                    })
+                })
+                .catch(err => {
+                    console.log(err);
+                    return res.send({"response":"error"})
+                })
+        }
+        else if(type === "update"){
+            User.findOne({email:user_email},{_id:1,details:1})
+                .then(out => {
+                    // console.log(out)
+                    UserData.updateOne({_id:out.details},{$set:{"Bio":bio,"Profession":Profession}})
+                        .then(ins => {
+                            return res.send({"response":"sucefully inserted","session":""})
+                        })
+                        .catch(err=>{
+                            console.log(error)
+                            return res.send({"response":"error"})
+                        })
+                })
+                .catch(err => {
+                    console.log(err);
+                    return res.send({"response":"error"})
+                })
+            // res.send("details")
+        }
+    }
+    else{
+        res.send({"session":"expired"})
+    }
+    
+})
 
 
 app.post("/logout",(req,res)=>{

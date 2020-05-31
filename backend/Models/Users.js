@@ -1,4 +1,11 @@
 const mongoose = require('mongoose');
+const {ObjectId} = mongoose.Schema 
+
+const UserDataSchema = new mongoose.Schema({
+    Bio:String,
+    Profession:String,
+})
+
 
 const UserSchema = new mongoose.Schema({
   firstname: {
@@ -37,8 +44,19 @@ passwordConfirm: {
     type: String,
     required: true,
     min: 6
-} 
+},
+details:{
+    type:ObjectId,
+    ref:"UsersData",
+    default:null
+}
 });
 
-module.exports = mongoose.model('Users', UserSchema);
+
+const userData = mongoose.model('UsersData', UserDataSchema)
+
+const user = mongoose.model('Users', UserSchema)
+
+// module.exports = mongoose.model('Users', UserSchema);
+module.exports = {user,userData};
 
