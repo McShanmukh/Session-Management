@@ -2,21 +2,17 @@ var express = require('express')
 var dotenv = require('dotenv')
 const router = require('express').Router();
 const passport = require('passport')
-
 var cookieParser = require('cookie-parser')
 const authroute = require('./routes/auth');
 const route = require('./routes/Routes');
 // const profileroute = require('./routes/Profile');
 const mongoose = require('mongoose');
 const user = require('./Models/Users');
-const  redis     = require('redis');
+const redis= require('redis');
 const session = require('express-session')
 let RedisStore = require('connect-redis')(session)
-let redisClient = redis.createClient()
 const bcrypt = require('bcryptjs');
 const User = require('./Models/Users.js');
-
-const IoRedis = require('ioredis')
 
 
 const cors= require('cors');
@@ -40,34 +36,28 @@ app.use(cookieParser())
 
 // session with cookie
 // Use the session middleware
-const {NODE_ENV = 'devolopment',}=process.env
-const inprod = NODE_ENV === 'production'
 const PORT = process.env.PORT || 5000
 
 
 const expiry_sec = 25
-// const store = new RedisStore({ host: 'localhost', port: 6379, client: redisClient})
 
-const client = new IoRedis({
-    // host: 'localhost', // already the default
-    // port: 6379, // already the default
-  })
-  
-const store = new RedisStore({ client })
+// const redisClient = redis.createClient('6379', '35.200.229.235')
+// redisClient.on('connect', function() {
+//     console.log('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Redis client connected<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
+// });
+// session with cookie
+// Use the session middleware
+const {NODE_ENV = 'devolopment',}=process.env
+const inprod = NODE_ENV === 'production'
 app.use(session({ name:"Cookie-SID",
                   key: 'user_sid',
-                  store: store,
+                  store: new RedisStore({ host: '35.200.229.235', port: 6379, client: redisClient}),
                   secret: 'mightbesomething =here$#',
                   resave: false, 
                   saveUninitialized: true,
-                  cookie: { maxAge: 1000*expiry_sec,
+                  cookie: { maxAge: 1000*9,
                             sameSite:true,
-                            secure: inprod}})),
-redisClient.on("error", function(error) {
-  console.error(error);
-});
-
-
+                            secure: inprod}}))
 
 // connect to DB
 dotenv.config()

@@ -6,7 +6,15 @@ import history from"./history";
 import Cookies from 'js-cookie';
 
 export class Login extends React.Component {
+  
+  state = { 
+    email: '',
+    password: '',
+    authenticated:false
+  };
+
   componentDidMount(){
+
   const session = Cookies.get("session")
   if(typeof session === "string"){
       //changeAuth(true)
@@ -21,6 +29,7 @@ export class Login extends React.Component {
       'Access-Control-Allow-Origin':'*',
       'Content-Type':'application/json',
   }
+
     fetch('http://localhost:5000/profile', {
       method: 'POST',
       body: JSON.stringify({sesid:session}),
@@ -30,10 +39,6 @@ export class Login extends React.Component {
     .then(res=>res.json())
     .then(res => {
         console.log("profile",res)
-          // let d =res.data
-        // props.history.push('/')
-        
-        //let auth = JSON.parse(res)
         console.log(res)
         if(res.session === "expired"){
           this.setState({ authenticated:false})
@@ -41,8 +46,6 @@ export class Login extends React.Component {
           //history.push("/login")
         }
         else if(res["session"] === "active"){
-            //changeAuth()
-          //   Cookies.set('session', res[])
           if(session === res["session-id"]){
 
             this.setState({ authenticated:true})
@@ -56,19 +59,8 @@ export class Login extends React.Component {
     .catch(err => {
       console.log('error:-' + err)
     })
-
-
   }
   
-
-  state = { 
-    email: '',
-    password: '',
-    authenticated:false
-  };
-
-
-
   handleSubmit = async (event) => {
     event.preventDefault();
     this.setState({ 
@@ -97,8 +89,6 @@ export class Login extends React.Component {
         Cookies.set('session', session_id)
         this.setState({ authenticated:true})
         history.push('/profile')
-        // this.context.history.push('/AI-Economics')
-        console.log("Hey")
         }
         else if(res["verified"] === "false"){
           console.log(res["error"])
@@ -119,6 +109,7 @@ export class Login extends React.Component {
       </div>
       )
     }
+    else {
     return (
       <div className="base-container" ref={this.props.containerRef}>
         <div className="header">Login</div>
@@ -161,5 +152,6 @@ export class Login extends React.Component {
       </div>
       </div>
     );
+    }
   }
 }
