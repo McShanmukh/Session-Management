@@ -17,6 +17,7 @@
     "connect-redis": "^4.0.4",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.3",
     "dateformat": "^3.0.3",
     "dotenv": "^8.2.0",
     "elasticsearch": "^16.5.0",

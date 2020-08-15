@@ -2,7 +2,7 @@ const express = require('express')
 const session = require('express-session')
 var app = express
 // Use the session middleware
-app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 60000 }}))
+app.use(session({ secret: process.env.REDIS_SECRET, cookie: { maxAge: process.env.MAX_AGE }}))
  
 // Access the session as req.session
 app.get('/login', function(req, res, next) {

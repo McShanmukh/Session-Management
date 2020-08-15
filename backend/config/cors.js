@@ -7,7 +7,7 @@ const corsOptions = {
     if (whitelist.has(origin)) {
       callback(null, true);
     } else {
-      callback(new Error("Not allowed by CORS"));
+      callback(new Error("Not allowed by written code CORS"));
     }
   },
   credentials: true

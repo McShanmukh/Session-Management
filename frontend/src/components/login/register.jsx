@@ -299,7 +299,7 @@ export class Register extends React.Component {
   };
     console.log(this.state)
     // axios.post('http://localhost:5000/register', this.state)
-    fetch('http://localhost:5000/register',requestOptions)
+    fetch('http://localhost:5000/Register',requestOptions)
     .then(res => res.json())
     .then(res=>{
       // res = res.data

@@ -1,8 +1,10 @@
 const redis = require('redis');
+var dotenv = require('dotenv')
 
-const redisClient = redis.createClient('6379', '35.200.229.235')
+dotenv.config()
+const redisClient = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_IP)
 redisClient.on('connect', function() {
-    console.log('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Redis client connected<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
+    console.log('>->->->->->->->->->->->->->->-> Redis client connected <-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<-<');
 });
 
 module.exports = redisClient;
